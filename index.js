@@ -3,8 +3,8 @@ require("./db");
 const express = require('express');
 const app = express();
 
-const cors = require("cors");
-app.use(cors());
+//const cors = require("cors");
+//app.use(cors());
 
 const jwt = require("jsonwebtoken");
 const {checkToken} = require("./auth/checkToken");
